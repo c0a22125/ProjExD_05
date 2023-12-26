@@ -18,6 +18,9 @@ class Koukaton:
 
 
 class Item:
+    """
+    アイテムに関するクラス
+    """
     def __init__(self, color, x, y, radius=15, lifespan=500):
         self.color = color  # アイテムの色
         self.x = x  # アイテムのX座標
